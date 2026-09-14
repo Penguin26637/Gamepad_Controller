@@ -1,1 +1,17 @@
 .history/
+
+# KiCad temporary and backup files
+*.bak
+*-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*~
+_restore_backup_*/
+*.lck
+
+# KiCad autosave files
+_autosave-*
+*.autosave
+
+# KiCad project specific files that shouldn't be tracked
+fp-info-cache
